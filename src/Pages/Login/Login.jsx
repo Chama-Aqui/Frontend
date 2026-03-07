@@ -14,8 +14,13 @@ export function Login() {
 
         {/* boxs */}
 
-        <div className='box1login'></div>
+        <div className='box-wall'></div>
+
+
+        {/* buttons */}
+        
+
 
         </div>
     )
-}
+};
