@@ -53,3 +53,10 @@
     color: black;
     transition: 1ms;
 }
+
+/* imagens */
+
+.logo-sidebar{
+    max-width: 100px;
+    
+}

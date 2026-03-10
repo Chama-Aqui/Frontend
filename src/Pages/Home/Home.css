@@ -1,4 +1,9 @@
-.t1home{
-    font-family: sans-serif;
-    font-size: 50px;
+
+
+
+.logo-home{
+    position: relative;
+    left: 60%;
+    width: 100px;
+
 }
