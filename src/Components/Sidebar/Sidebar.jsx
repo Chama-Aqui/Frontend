@@ -12,7 +12,7 @@ export function Sidebar() {
 
 
 
-        {/* <img src="./public/Logo.png" className='logo-sidebar'/> */}
+        <img src="./public/Logop.png" className='logo-sidebar'/>
 
 
         {/* boxs */}

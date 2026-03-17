@@ -57,6 +57,10 @@
 /* imagens */
 
 .logo-sidebar{
-    max-width: 100px;
-    
+    color: white;
+    position: fixed;
+    top: 3%;
+    left: 2.3%;
+    max-width: 500px;
+    width: 13%; 
 }
