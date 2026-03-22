@@ -29,8 +29,19 @@ export function Login() {
          
             <button type='submit' className='b-login'>Entrar</button>
 
+        {/* footer */}
+
+            <div className='footer-login'>
+            <a className='a-login' href=" ">Esqueceu a senha?</a>
+            <a className='a-login' href=" ">Criar conta</a>
             </div>
-        
+
+
+            </div>
+
+
+
+
 
         </div>
     )
