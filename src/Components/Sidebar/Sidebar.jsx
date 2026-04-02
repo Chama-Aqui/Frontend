@@ -26,7 +26,7 @@ export function Sidebar() {
             <button type='button' onClick={() => navigation("")} className='b-sidebar' >Solicitações</button>
             <button type='button' onClick={() => navigation("")} className='b-sidebar' >Serviços</button>
             <button type='button' onClick={() => navigation("/perfil")} className='b-sidebar' >Perfil</button>
-            <button type='button' onClick={() => navigation("/login")} className='b-sidebar' >Sair</button>
+            <button type='button' onClick={() => navigation("/")} className='b-sidebar' >Sair</button>
         </div>
 
 

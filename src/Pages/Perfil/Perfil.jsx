@@ -1,12 +1,31 @@
+import { Sidebar } from '../../Components/Sidebar/Sidebar';
 import './Perfil.css';
 
 export function Perfil(){
 
     return(
-        <div>
+        <div className='all-perfil'>
             
-            <h1>Bom dia</h1>
+
+            {/* components */}
             
+            <div className='componet-perfil'>
+                <Sidebar />
+            </div>
+            
+
+            {/* dados */}
+            <div className='container-perfil'>
+                <div className='card-perfil'>
+                    <p className='info-perfil'>
+                        Nome:
+                        Email:
+                        CPF:
+                    </p>
+                </div>
+            </div>
+              
+
         </div>
     )
 };

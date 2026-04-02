@@ -1,12 +1,16 @@
+import { useNavigate } from 'react-router-dom';
 import './Register.css';
 
 
 export function Register() {
 
+    const navigation = useNavigate();
+
     return(
         <div className='all-register'>
 
             <div className='box-register'>
+
             {/* entrar */}
 
             <div className='left-register'>
@@ -16,7 +20,7 @@ export function Register() {
                 <p className='acess-registerr'>Acesse sua conta agora</p>
                 </div>
 
-                <button type='button' className='bleft-register'>Entrar</button>
+                <button type='button' className='bleft-register' onClick={() => navigation('/')}>Entrar</button>
             </div>
 
             {/* formulario */}
@@ -34,7 +38,7 @@ export function Register() {
                 </div>
 
                 
-                    <button type='submit' className='b-register'>Concluir</button>
+                <button type='submit' className='b-register' onClick={() => alert('Registrado com sucesso!')}>Concluir</button>
                 
 
             </div>
